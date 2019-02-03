@@ -1,11 +1,17 @@
 import { Link } from "gatsby"
 import React from "react"
-import './name-animation.css';
+import {
+  clipText,
+  clipTextCover,
+  clipTextTwelve,
+} from './logo.module.css';
+
+const logoClass = `${clipText} ${clipTextCover} ${clipTextTwelve}`;
 
 const Logo = () => (
   <>
     <Link to="/" className="navbar-brand">
-      <div className="clip-text clip-text_twelve clip-text--cover">Jacob Worrel</div>
+      <div className={logoClass}>Jacob Worrel</div>
     </Link>
     <button
       className="navbar-toggler mx-auto"
