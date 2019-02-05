@@ -15,10 +15,10 @@ const social = [
     id: 'medium',
     link: 'https://medium.com/@jacobworrel',
   },
-  {
-    id: 'angellist',
-    link: 'https://angel.co/jacob-worrel',
-  },
+  // {
+  //   id: 'angellist',
+  //   link: 'https://angel.co/jacob-worrel',
+  // },
   {
     id: 'linkedin',
     link: 'https://www.linkedin.com/in/jacobworrel',

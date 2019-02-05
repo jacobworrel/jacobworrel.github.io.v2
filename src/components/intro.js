@@ -13,13 +13,11 @@ const Intro = () => (
       </p>
       <hr className="my-4"/>
       <p>
-        I wrote a JavaScript library called <a href="http://ac-d3.com/">AC-D3</a> that renders
+        In my free time, I like to tinker on open source. I wrote a JavaScript library called <a href="http://ac-d3.com/">AC-D3</a> that renders
         dynamic media visualizations inside of D3. The project was featured in <a href="http://javascriptweekly.com/issues/342">JavaScript Weekly</a>.
       </p>
       <p>
-        I love <Link to="/writing">writing</Link> and giving talks about technology. I was invited
-        to speak at <a href="https://www.meetup.com/socal-react/">SoCal React</a> on the trade offs between rendering
-        D3 charts in SVG vs. HTML5 Canvas.
+        I also love <Link to="/writing">writing</Link> about technology and I'm a regular contributor to <a href="https://itnext.io/">ITNEXT</a>.
       </p>
       <hr className="my-4"/>
       <p>
