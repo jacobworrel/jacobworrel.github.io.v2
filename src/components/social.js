@@ -41,7 +41,7 @@ SocialIcon.propTypes = {
 const Social = () => (
   <div className={styles.container}>
     <ul className={styles.listInline}>
-      {social.map(props => <SocialIcon {...props} />)}
+      {social.map(props => <SocialIcon key={props.id} {...props} />)}
     </ul>
   </div>
 );
