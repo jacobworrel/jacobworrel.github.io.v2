@@ -33,7 +33,6 @@ const projectList = [
     name: 'JS vs. Elm',
     description: 'A Side by Side Syntax Comparison Between JavaScript and Elm',
     link: 'https://github.com/jacobworrel/js-vs-elm',
-    stack: 'JavaScript | Elm | React | Redux | Markdown',
   },
 ];
 
@@ -42,7 +41,9 @@ const Project = ({ link, name, description, stack }) => (
     <h1 className={styles.header}><a href={link}>{name}</a></h1>
     <div className={styles.info}>
       <p><span className={styles.label}>Description</span>: {description}</p>
-      <p><span className={styles.label}>Tools</span>: {stack}</p>
+      { stack &&
+        <p><span className={styles.label}>Tools</span>: {stack}</p>
+      }
     </div>
   </li>
 );
@@ -50,7 +51,7 @@ const Project = ({ link, name, description, stack }) => (
 const ProjectsPage = () => (
   <Layout>
     <ul className="portfolio">
-      {projectList.map(props => <Project {...props}/>)}
+      {projectList.map(props => <Project key={props.name} {...props}/>)}
     </ul>
   </Layout>
 );

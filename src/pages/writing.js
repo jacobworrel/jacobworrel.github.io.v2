@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import styles from './writing.module.css';
 
 const articleList = [
   {
@@ -23,7 +24,7 @@ const articleList = [
 ];
 
 const ArticleLink = ({ link, title }) => (
-  <li className="article">
+  <li className={styles.article}>
     <a href={link}>{title}</a>
   </li>
 );
@@ -31,7 +32,7 @@ const ArticleLink = ({ link, title }) => (
 const WritingPage = () => (
   <Layout>
     <ul className="portfolio">
-      {articleList.map(props => <ArticleLink {...props}/>)}
+      {articleList.map(props => <ArticleLink key={props.title} {...props}/>)}
     </ul>
   </Layout>
 );

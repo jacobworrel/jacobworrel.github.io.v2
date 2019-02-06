@@ -10,10 +10,6 @@ body {
     list-style-type: none;
 }
 
-.article {
-    margin-bottom: 0.3rem;
-}
-
 a {
     color: #C04CF0;
 }
@@ -23,9 +19,6 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-    .tech-stack {
-        display: none;
-    }
     .portfolio {
         list-style-type: disc;
     }

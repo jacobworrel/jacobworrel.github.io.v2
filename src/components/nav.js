@@ -30,7 +30,7 @@ const Nav = () => (
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
-        {pageList.map(props => <NavItem {...props} />)}
+        {pageList.map(props => <NavItem key={props.id} {...props} />)}
       </ul>
     </div>
   </nav>
