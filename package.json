@@ -5,8 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "bootstrap": "4.2.1",
     "@fortawesome/fontawesome-free": "5.7.1",
+    "bootstrap": "4.2.1",
     "gatsby": "^2.0.111",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-manifest": "^2.0.17",
@@ -44,6 +44,7 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "install": "^0.12.2",
-    "npm": "^6.8.0"
+    "npm": "^6.8.0",
+    "rss-to-json": "^1.0.4"
   }
 }
