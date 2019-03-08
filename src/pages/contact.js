@@ -1,10 +1,11 @@
 import React from "react"
 
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
+    <SEO title="Contact" keywords={[`Jacob Worrel`, `JavaScript Developer`]} />
     <div className="row">
       <div className="col-md-10 mr-auto">
         <p>Drop me a line at <a href="mailto:jacobworrel@gmail.com">jacobworrel@gmail.com</a>.</p>

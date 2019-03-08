@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 import styles from './writing.module.css';
 
 const articleList = [
@@ -35,6 +35,7 @@ const ArticleLink = ({ link, title }) => (
 
 const WritingPage = () => (
   <Layout>
+    <SEO title="Writing" keywords={[`Jacob Worrel`, `JavaScript Developer`]} />
     <ul className="portfolio">
       {articleList.map(props => <ArticleLink key={props.title} {...props}/>)}
     </ul>

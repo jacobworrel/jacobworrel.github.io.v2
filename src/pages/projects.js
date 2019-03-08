@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 import styles from './projects.module.css';
 
 const projectList = [
@@ -50,6 +50,7 @@ const Project = ({ link, name, description, stack }) => (
 
 const ProjectsPage = () => (
   <Layout>
+    <SEO title="Projects" keywords={[`Jacob Worrel`, `JavaScript Developer`]} />
     <ul className="portfolio">
       {projectList.map(props => <Project key={props.name} {...props}/>)}
     </ul>
