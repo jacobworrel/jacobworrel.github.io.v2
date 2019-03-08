@@ -17,7 +17,7 @@ const Intro = () => (
         dynamic media visualizations inside of D3. The project was featured in <a href="http://javascriptweekly.com/issues/342">JavaScript Weekly</a>.
       </p>
       <p>
-        I also love <Link to="/writing">writing</Link>. I'm a regular contributor to <a href="https://itnext.io/">ITNEXT</a>.
+        I also love <Link to="/writing">writing</Link>. I've contributed to <a href="https://medium.freecodecamp.org/">freeCodeCamp</a> and <a href="https://itnext.io/">ITNEXT</a>.
       </p>
       <hr className="my-4"/>
       <p>

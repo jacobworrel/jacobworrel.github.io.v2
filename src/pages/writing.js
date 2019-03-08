@@ -6,6 +6,10 @@ import styles from './writing.module.css';
 
 const articleList = [
   {
+    title: 'What to Ask Yourself Before Adding an NPM Package to Your Project',
+    link: 'https://medium.freecodecamp.org/what-to-ask-yourself-before-adding-an-npm-package-to-your-project-6b92ba13070d',
+  },
+  {
     title: 'How to Debug Your Point-Free Code with Ramda',
     link: 'https://itnext.io/how-to-debug-your-point-free-code-with-ramda-5c46bd743781',
   },
