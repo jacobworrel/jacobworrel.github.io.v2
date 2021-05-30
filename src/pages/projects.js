@@ -6,33 +6,34 @@ import styles from './projects.module.css';
 
 const projectList = [
   {
-    name: 'XC Logic®',
-    description: `Conversion Logic's Marketing Analytics Dashboard`,
-    link: 'https://www.conversionlogic.com/platform',
-    stack: 'React | Redux | Mocha/Chai/Enzyme | Highcharts | Node.js | AWS | Bamboo',
+    name: 'React Windowed Select',
+    description: 'With ~10K weekly NPM downloads, react-windowed-select optimizes performance of the popular react-select component using virtualization. Written in TypeScript, fully tested with Jest and Cypress.',
+    link: 'https://github.com/jacobworrel/react-windowed-select',
+    stack: 'React | Jest/Enzyme | Cypress | TypeScript | Storybook | Travis CI | Coveralls',
   },
   {
-    name: 'codesmith.io',
-    description: `Codesmith's Public Website and Online Learning Platform`,
-    link: 'https://codesmith.io',
-    stack: 'Node.js | SASS | Travis CI',
+    name: 'NPM Package Stats',
+    description: 'A CLI tool that gets stats on NPM packages.',
+    link: 'https://www.npmjs.com/package/npm-pkg-stats',
+    stack: 'Node.js',
+  },
+  {
+    name: 'Joi Markdown Generator',
+    description: 'A markdown generator from @hapi/joi schemas.',
+    link: 'https://www.npmjs.com/package/joi-md-doc',
+    stack: 'Node.js',
+  },
+  {
+    name: 'Covid-19 Dashboard',
+    description: 'COVID-19 data visualization dashboard using global data from Johns Hopkins University and state and county level data from NY Times.',
+    link: 'https://goofy-agnesi-0d5e9a.netlify.app/',
+    stack: 'React | Highcharts',
   },
   {
     name: 'AC-D3',
     description: 'JavaScript Library for Rendering Dynamic Media Visualizations Inside D3',
-    link: 'http://ac-d3.com',
+    link: 'https://github.com/AC-D3/AC-D3',
     stack: 'D3 | Jasmine | YouTube & Vimeo APIs',
-  },
-  {
-    name: 'React Windowed Select',
-    description: 'Integration of React Window with React Select V2 to Efficiently Render Large Lists',
-    link: 'https://github.com/jacobworrel/react-windowed-select',
-    stack: 'React | Jest/Enzyme | Travis CI | Coveralls',
-  },
-  {
-    name: 'JS vs. Elm',
-    description: 'A Side by Side Syntax Comparison Between JavaScript and Elm',
-    link: 'https://github.com/jacobworrel/js-vs-elm',
   },
 ];
 
